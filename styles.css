@@ -1,0 +1,170 @@
+#title {
+  background-color: #570A57;
+  font-family: Montserrat;
+
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #F999B7;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 2% 15% 5%;
+}
+
+.title-row {
+  padding: 2% 0 15%;
+
+}
+.ps-btn{
+  position: relative;
+  z-index: 1;
+}
+.navbar {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 5%;
+
+}
+
+.btn {
+  margin: 4% 2% 0;
+}
+
+.dogimg {
+  transform: rotate(25deg);
+  width: 28%;
+  position: absolute;
+
+}
+.webicon{
+  width:27%;
+}
+#features {
+  text-align: center;
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  padding-top: 16px;
+}
+
+/* .feat {
+  padding: 20% auto;
+} */
+
+.icon {
+  color: #7858A6;
+}
+
+.icon:hover {
+  color: #371B58;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+#testimonials {
+  position: relative;
+  color: #F999B7;
+  background-color: #570A57;
+  text-align: center;
+}
+
+.testimonials-image{
+  /* height: 20%; */
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo{
+  width: 7%;
+  margin: auto 2%;
+}
+.press-logo:hover{
+  background-color: #F999B7;
+}
+#press{
+  text-align:center;
+    background-color: #570A57;
+    padding-bottom: 3%;
+}
+.testimonial-box{
+  padding: 5% 10%;
+}
+#pricing{
+  padding: 50px 100px;
+  color: #68429e;
+  text-align: center;
+}
+.pricing-card{
+  padding: 3% 2%;
+}
+.card
+{
+  color:#000;
+}
+
+@media (max-width:995px){
+  #title{
+    text-align: center;
+  }
+  .dogimg{
+    position: static;
+    transform: rotate(0);
+  }
+}
+@media (max-width:634px) {
+  .navbar{
+    flex-wrap: nowrap;
+  }
+}
+#cta{
+  background-color:  #570A57;
+  text-align: center;
+    color: #F999B7;
+    padding: 8% 15%;
+}
+#footer{
+  text-align: center;
+  padding: 1%;
+
+}
+.cont{
+  color: #000;
+  padding: 3% 2%;
+}
+.fa-twitter:hover{
+  color: #00acee;
+}
+.fa-instagram:hover{
+  color: #4267B2;
+}
+.fa-facebook-f:hover{
+  color: #00acee;
+}
+.fa-snapchat:hover{
+  color: 	#FFFC00;
+}
+.fa-envelope:hover{
+  color: #BB001B;
+}
