@@ -98,7 +98,7 @@ h2 {
 
 .press-logo{
   width: 7%;
-  margin: auto 2%;
+  margin: 3% 2% auto;
 }
 .press-logo:hover{
   background-color: #F999B7;
